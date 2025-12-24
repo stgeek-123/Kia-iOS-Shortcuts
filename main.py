@@ -8,10 +8,10 @@ app = Flask(__name__)
 # =========================
 # Environment Variables
 # =========================
-USERNAME = os.environ.get("troy.abrams96@gmail.com")
-PASSWORD = os.environ.get("WarEage11252017")
-PIN = os.environ.get("0405")
-SECRET_KEY = os.environ.get("2017")
+USERNAME = os.environ.get("KIA_USERNAME")
+PASSWORD = os.environ.get("KIA_PASSWORD")
+PIN = os.environ.get("KIA_PIN")
+SECRET_KEY = os.environ.get("SECRET_KEY")
 VEHICLE_ID = os.environ.get("VEHICLE_ID")  # Optional
 
 missing = []
